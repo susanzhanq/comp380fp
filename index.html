@@ -165,7 +165,7 @@ The audit report, released six months later, includes anonymized data from your 
 
 Of the &#39;&#39;835&#39;&#39; candidates who did not make the shortlist:
 
-* &#39;&#39;73%&#39;&#39; of applicants from HBCUs were ranked below 50%
+* &#39;&#39;73%&#39;&#39; of applicants from HBCUs were ranked below 50%, favoring Ivy Leagues candidates
 * &#39;&#39;Female applicants &#39;&#39;with career gaps were ranked an average of 18 points lower than male applicants with identical gaps
 * Candidates whose resumes contained words like &quot;&#39;&#39;women&#39;s leadership&quot;&#39;&#39; or &#39;&#39;&quot;diversity committee&quot;&#39;&#39; were automatically downgraded
 
@@ -322,75 +322,79 @@ There are no wrong answers.
 
 [[Stakeholder 1]]</tw-passagedata><tw-passagedata pid="23" name="Stakeholder 1" tags="" position="600,1525" size="100,100">&#39;&#39;VantaAI, the software company that built the screening tool&#39;&#39;
 
-VantaAI, founded in 2018, markets its product as an objective, bias-free alternative to manual resume screening. Its sales materials claim the tool reduces hiring time by 60% and eliminates unconscious human bias.
+VantaAI (founded 2018) markets its product as an objective, bias-free alternative to manual screening, claiming it reduces hiring time by 60% and eliminates unconscious bias. What their materials don&#39;t disclose is how the model was actually trained.
 
-What these materials do not disclose is how the model was trained.
+&#39;&#39;The problem:&#39;&#39; The system was built on ten years of historical hiring data from predominantly white, male-led tech companies, then evaluated by how accurately it reproduced those same outcomes. The result was predictable:
 
-The system relies on ten years of historical hiring data sourced from clients such as data that largely reflects the patterns of predominantly white, male-led tech companies. Internally, VantaAI evaluated the model by measuring how accurately it reproduced those same historical outcomes.
+* Candidates who would have been hired before → score highly
+* Candidates who would have been filtered out → continue to score poorly
 
-The result is predictable:
-Candidates who would have been hired under the old system score highly.
-Candidates who would have been filtered out continue to score poorly.
+The model learned to replicate past decisions and called it &quot;objectivity.&quot;
 
-In effect, the model learned to replicate past decisions and labeled that replication as “objectivity.”
-
-VantaAI’s terms of service place full responsibility for hiring decisions on its clients. The company has not undergone any independent audit for disparate impact. When questioned by auditors, VantaAI’s legal team emphasized that the tool is a decision-support system, not a decision-maker.
+The accountability gap: VantaAI&#39;s terms of service place full responsibility for hiring decisions on clients. The company has never undergone independent audit for disparate impact, and their legal team maintains the tool is a decision-support system, not a decision-maker.
 
 They built the system.
 They chose the data.
-They defined what “success” looks like.
+They defined what &quot;success&quot; looks like.
 
 But they did not make the final hiring decisions.
-
 [[Stakeholder 2]]</tw-passagedata><tw-passagedata pid="24" name="Stakeholder 2" tags="" position="600,1650" size="100,100">&#39;&#39;Company Leadership&#39;&#39;
 
-The company’s VP of Talent and Chief People Officer approved the VantaAI contract in early 2022 following a competitive review process. The primary evaluation criteria were speed, cost-per-hire reduction, and integration with existing HR systems.
-
+In early 2022, the VP of Talent and Chief People Officer approved the VantaAI contract based on three criteria: speed, cost-per-hire reduction, and HR system integration.
 Bias testing was not included.
 
-The decision was presented to the board as a strategic modernization initiative and celebrated internally as an example of data-driven hiring.
-
-What leadership did not account for was the nature of the data being operationalized.
-
-The company’s historical hiring data, accumulated over fifteen years, reflected a workforce that was 78% white and 71% male in technical roles. When VantaAI’s model trained on this data, it learned the company’s past hiring patterns. When deployed, it reproduced those patterns of more efficiently and at scale.
+The decision was celebrated internally as a data-driven modernization initiative. What leadership didn&#39;t account for was the data being operationalized, fifteen years of hiring history reflecting a workforce that was &#39;&#39;78% white and 71% male&#39;&#39; in technical roles. When VantaAI trained on this data, it learned those patterns. When deployed, it reproduced them at scale.
 
 The system did not introduce bias. It automated it.
 
-Leadership also shaped the organizational context in which the tool was used. When concerns were raised, employees were encouraged to trust the system. This response reflected an environment where a $200,000 investment needed to be justified, where efficiency was prioritized, and where questioning an approved tool was treated as resistance rather than diligence.
+&#39;&#39;The organizational context mattered too.&#39;&#39; When employees raised concerns, they were told to trust the system, reflecting an environment where a $200,000 investment needed justification and questioning an approved tool was treated as resistance rather than diligence.
 
 Leadership did not design the tool.
 
 But they defined the criteria for adoption.
-They controlled the data environment it learned from.
+They controlled the data it learned from.
 And they determined how it would be used.
 
 [[Stakeholder 3]]
 
 </tw-passagedata><tw-passagedata pid="25" name="Stakeholder 3" tags="" position="600,1775" size="100,100">&#39;&#39;You, the HR Analyst&#39;&#39;
 
-The survey does not use your name. It refers to you as &quot;the analyst of record for Hiring Cycle HCY-2023-114.&quot;
+The survey doesn&#39;t use your name. It refers to you as &quot;the analyst of record for Hiring Cycle HCY-2023-114.&quot;
 
-You were given the VantaAI dashboard and told to select four candidates for interview from a shortlist of twelve. You were given a deadline of end of day. You were not given documentation explaining how the scores were calculated. You were not given training on how to identify potential bias in algorithmic outputs. You were not told that the system had never been externally audited.
+You were given the VantaAI dashboard and told to select four candidates from a shortlist of twelve by end of day. You were not given:
 
-You did notice something. The gap between Maya Chen&#39;s score and her actual qualifications was visible if you looked. Some version of you looked. Some version of you felt something nag at the back of your mind and then closed the tab.
+* Documentation explaining how scores were calculated
+* Training to identify bias in algorithmic outputs
+* Any indication the system had never been externally audited
 
-The survey notes that analysts were not formally prohibited from overriding system recommendations. It notes that an override mechanism existed and was available to all users. It does not note how the organizational culture treated analysts who used it. It does not note that when one analyst raised a concern, their manager responded in four minutes with a message that functioned as a dismissal.
+You did notice something. The gap between Maya Chen&#39;s score and her actual qualifications was visible, if you looked. Some version of you looked. Some version of you felt something nag at the back of your mind and then closed the tab.
+
+&#39;&#39;What the survey notes: &#39;&#39;Analysts were not formally prohibited from overriding the system. An override mechanism existed.
+
+&#39;&#39;What the survey doesn&#39;t note: &#39;&#39;How the organizational culture treated analysts who used it. Or that when one analyst raised a concern, their manager responded in four minutes with a message that functioned as a dismissal.
 
 You were the last human in the loop. You were also the human with the least power, the least information, and the most pressure.
 
-That is not an excuse. It is a context. The survey does not ask you to distinguish between the two.
+That is not an excuse. It is a context.
+
+The survey does not ask you to distinguish between the two.
 
 [[Stakeholder 4]]</tw-passagedata><tw-passagedata pid="26" name="Stakeholder 4" tags="" position="600,1900" size="100,100">&#39;&#39;Northbridge Systems, the Company&#39;&#39;
 
-The audit report identifies the company as the entity that selected, implemented, and operated the VantaAI system for twenty-six months without an internal bias review. During that time the tool processed approximately 12,400 applications across 47 hiring cycles. The auditors estimate that candidates from HBCUs were systematically underranked in at least 38 of those cycles.
+The audit report identifies Northbridge as the entity that selected, implemented, and operated VantaAI for &#39;&#39;26 months&#39;&#39; without an internal bias review. In that time:
 
-No single person decided this would happen. The VP of Talent approved a vendor. Legal reviewed the contract. HR implemented the workflow. Analysts ran the cycles. Managers approved the shortlists. At no point did any individual make a decision that felt like discrimination. At every point, individuals made decisions that felt like normal work.
+* &#39;&#39;12,400 applications&#39;&#39; processed across 47 hiring cycles
+* Candidates from HBCUs systematically underranked in &#39;&#39;at least 38&#39;&#39; of those cycles
 
-That is what institutional responsibility means. The harm was not located in any one person&#39;s intentions. It was distributed across a structure — a structure that prioritized efficiency, trusted a vendor&#39;s marketing claims, failed to build oversight mechanisms, and made it professionally costly to raise concerns.
+No single person decided this would happen. The VP of Talent approved the vendor. Legal reviewed the contract. HR implemented the workflow. Analysts ran the cycles. Managers approved the shortlists. At no point did anyone make a decision that felt like discrimination. At every point, individuals made decisions that felt like normal work.
 
-The company benefited from the tool&#39;s speed. The company will absorb the reputational damage from the lawsuit. Individual employees will likely not be named as defendants. The structure that produced the harm will probably continue operating, with minor adjustments, after the lawsuit is resolved.
+That is what institutional responsibility means. The harm was distributed across a structure that prioritized efficiency, trusted a vendor&#39;s marketing claims, failed to build oversight mechanisms, and made it professionally costly to raise concerns.
 
-Institutions do not go to court. People do. That asymmetry is part of what makes institutional responsibility so difficult to assign — and so easy to escape.
+&#39;&#39;The asymmetry:&#39;&#39; The company benefited from the tool&#39;s speed. The company will absorb the reputational damage from the lawsuit. Individual employees will likely not be named as defendants. The structure that produced the harm will probably continue operating, with minor adjustments, after the lawsuit is resolved.
+
+Institutions do not go to court. People do.
+
+That asymmetry is part of what makes institutional responsibility so difficult to assign,  and so easy to escape.
 
 [[Open the Survey]]</tw-passagedata><tw-passagedata pid="27" name="Open the Survey" tags="" position="600,2025" size="100,100">&lt;div id=&quot;hotspot-container&quot;
      style=&quot;position:relative; max-width:1000px; overflow:hidden; padding:0; margin:0; line-height:0; font-size:0;&quot;&gt;
@@ -456,7 +460,7 @@ The survey confirms your answer and generates a follow-up prompt:
 
 &lt;img src=https://cdn.phototourl.com/free/2026-04-28-92118188-794d-469e-8df2-ab92d8cc9cc7.png width=800&gt;
 
-You think about what to write. You think about the sales deck Dana showed the team two years ago. &quot;Objective. Consistent. Bias-free.&quot; You think about the fact that VettAI&#39;s testing methodology measured accuracy against the same historical outcomes the model was trained to replicate — a circular logic that guaranteed the past would be reproduced and called it objectivity. You think about how they knew the limitations of training on historical data, because that literature is not obscure, and they sold the tool anyway.
+You think about what to write. You think about the sales deck Dana showed the team two years ago. &quot;Objective. Consistent. Bias-free.&quot; You think about the fact that VantaAI&#39;s testing methodology measured accuracy against the same historical outcomes the model was trained to replicate — a circular logic that guaranteed the past would be reproduced and called it objectivity. You think about how they knew the limitations of training on historical data, because that literature is not obscure, and they sold the tool anyway.
 
 You type: &quot;The company that built and marketed the system as bias-free without adequate third-party testing bears primary responsibility for the harm caused by its deployment.&quot;
 
@@ -564,6 +568,9 @@ You find this out from Dana, who mentions it in the same breath as telling you t
 You think about what that policy would have meant two years ago. You think about how it would have taken you maybe thirty extra minutes. You think about Maya Chen&#39;s profile and what you would have done with thirty extra minutes and permission to look.
 
 Selecting yourself was uncomfortable. It was also the most direct confrontation with the thing that is hardest to look at: that you were in the room. That the system needed a human to complete the harm it started, and that human was you. Not because you are uniquely complicit, but because you are the one who was there. Accountability at the systemic level matters. It does not replace the question of what you do next time you are the last person in the loop.
+
+However, you weren&#39;t trained on using the specific AI. Without proper training of AI, you are susceptible to making the same biases over and over again.
+
 (if: $spokeUp is true)[You flagged something. It was dismissed. You are trying to decide if flagging it again, in a new cycle, with a new tool, is worth the same cost. You think it probably is. You are not certain.]
 (if: $evidence is true)[You still have the screenshots. You add them to a shared folder and label it &quot;cycle documentation.&quot; You send the folder link to the new second reviewer before the next cycle starts. You do not explain why. You think they will understand when they look.]
 (if: $trust &gt; 0)[You run the first new cycle. You look more closely this time. You&#39;re not sure if that&#39;s enough. You look anyway.]
@@ -596,6 +603,7 @@ Today, the tool plays a central role in the hiring process. Under tight deadline
 
 This creates a deeper ethical tension. The system is not clearly malfunctioning and may even perform well by traditional metrics, yet it reinforces outcomes shaped by past leadership decisions. When a qualified candidate is filtered out under these conditions, responsibility becomes difficult to assign. The outcome is shaped by the data, the design of the model, and the decisions of those using it, making it unclear who should be held accountable or expected to intervene.
 
+So, &quot;&#39;&#39;Who is morally responsible when an AI system, built on historically biased data, filters out a qualified candidate?&quot;&#39;&#39;
 [[Start Over |Image to Start]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
